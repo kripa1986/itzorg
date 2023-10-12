@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@itzorg/ui-compontent": ["ui-compontent/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
